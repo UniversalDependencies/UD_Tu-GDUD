@@ -185,7 +185,7 @@
 # text = gua, te mude-n gua, te dʑiŋ ndaː-nɵ ndɵreːgu ugo-nɵ-ŋgɜ mude-n-a.
 # text[eng] = No. She cannot, she can speak only our language.
 1	gua	gua	INTJ	_	Polarity=Neg	12	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	6	punct	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
 3	te	te	PRON	_	PronType=Dem	4	nsubj	_	_
 4	mude-n	mude	VERB	_	Mood=Ind|VerbForm=Fin	12	parataxis	_	_
 5	gua	gua	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
@@ -212,7 +212,7 @@
 # text[eng] = No, they are not two, but three chairs.
 1	puɕa	puɕ	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ɢʊːr	ɢʊːr	NUM	_	ExtPos=NUM|NumType=Card	1	conj	_	_
+3	ɢʊːr	ɢʊːr	NUM	_	NumType=Card	1	conj	_	_
 4	puɕ-a	puɕ	VERB	_	Polarity=Neg	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	ɢʊːraːn-na	ɢʊːraːn	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
@@ -748,7 +748,7 @@
 # text = buda-ŋɢʊla nɵgɜ nɵgɜ-naː sdzaliu naːma-ŋgɜ mude-m
 # text[eng] = We have all known each other very well.
 1	buda-ŋɢʊla	_	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-2	nɵgɜ	_	NUM	_	NumType=Card	3	flat	_	_
+2	nɵgɜ	_	NUM	_	NumType=Card	3	parataxis	_	_
 3	nɵgɜ-naː	_	NUM	_	NumType=Card	6	obj	_	Case=Ref
 4	sdzaliu	_	ADV	_	_	6	advmod	_	_
 5	naːma-ŋgɜ	_	ADV	_	_	6	advmod	_	_
@@ -788,7 +788,7 @@
 2	tar	_	NOUN	_	_	6	obl	_	_
 3	taʂ	_	NOUN	_	_	4	compound	_	_
 4	korgo-nɵ	_	NOUN	_	Case=Gen	2	nmod:poss	_	_
-5	daʋaː-gu	_	AUX	_	Aspect=Imp|VerbForm=Part	6	cop	_	_
+5	daʋaː-gu	_	AUX	_	Aspect=Imp|VerbForm=Fin	6	cop	_	_
 6	nɵmbaː	_	ADJ	_	Degree=Pos	0	root	_	_
 
 # sent_id = Tu_grammar_69
@@ -867,7 +867,7 @@
 8	au	au	VERB	_	VerbForm=Conv	9	advcl	_	_
 9	u-la	u	VERB	_	Tense=Fut	4	advcl	_	_
 10	ɕdʑi-gu	ɕdʑi	VERB	_	Aspect=Imp	9	xcomp	_	_
-11	rgolo-gu-na	rgolo	AUX	_	Aspect=Imp	9	aux	_	_
+11	rgolo-gu-na	rgolo	VERB	_	Aspect=Imp	9	xcomp	_	_
 
 # sent_id = Tu_grammar_75
 # text = tɕɵ te deːl-lɵ mosaːdiː-sa udʑe-sa sar xʊɢʊr ʋ a
@@ -879,8 +879,8 @@
 5	udʑe-sa	udʑe	VERB	_	VerbForm=Conv	4	advcl	_	_
 6	sar	sar	ADV	_	Degree=Pos	4	advmod	_	_
 7	xʊɢʊr	xʊɢʊr	ADV	_	Degree=Pos	4	advmod	_	_
-8	ʋ	ʋ	AUX	_	_	4	aux	_	_
-9	a	a	AUX	_	Tense=Pres	4	aux	_	_
+8	ʋ	ʋ	VERB	_	_	4	xcomp	_	_
+9	a	a	VERB	_	Tense=Pres	4	xcomp	_	_
 
 # sent_id = Tu_grammar_76
 # text = xarʋan ʂdzɵn seːr naiman mau deːren fɵn
