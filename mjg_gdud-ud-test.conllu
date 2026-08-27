@@ -10,7 +10,7 @@
 # text[eng] = No, not mine, yours.
 1	puɕ-a	puɕ	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	munɵ	munɵ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	conj	_	_
+3	munɵ	munɵ	PRON	_	ExtPos=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	conj	_	_
 4	puɕ-a	puɕ	VERB	_	Polarity=Neg	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	te	te	PRON	_	PronType=Dem	1	conj	_	_
@@ -80,7 +80,7 @@
 3	te	te	PRON	_	PronType=Dem	4	nsubj	_	_
 4	baɢaɕi	baɢaɕi	NOUN	_	Number=Sing	1	parataxis	_	_
 5	ʋa	ʋa	AUX	_	Mood=Ind|Tense=Pres	4	cop	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	dep	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tu_grammar_9
 # text = te-ŋgɜ kun baɢaɕi puɕ-a sa, nembzn uː?
@@ -184,10 +184,10 @@
 # sent_id = Tu_grammar_17
 # text = gua, te mude-n gua, te dʑiŋ ndaː-nɵ ndɵreːgu ugo-nɵ-ŋgɜ mude-n-a.
 # text[eng] = No. She cannot, she can speak only our language.
-1	gua	gua	INTJ	_	Polarity=Neg	6	discourse	_	SpaceAfter=No
+1	gua	gua	INTJ	_	Polarity=Neg	12	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	te	te	PRON	_	PronType=Dem	4	nsubj	_	_
-4	mude-n	mude	VERB	_	Mood=Ind|VerbForm=Fin	6	parataxis	_	_
+4	mude-n	mude	VERB	_	Mood=Ind|VerbForm=Fin	12	parataxis	_	_
 5	gua	gua	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	te	te	PRON	_	PronType=Dem	12	nsubj	_	_
@@ -212,7 +212,7 @@
 # text[eng] = No, they are not two, but three chairs.
 1	puɕa	puɕ	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ɢʊːr	ɢʊːr	NUM	_	NumType=Card	1	conj	_	_
+3	ɢʊːr	ɢʊːr	NUM	_	ExtPos=NUM|NumType=Card	1	conj	_	_
 4	puɕ-a	puɕ	VERB	_	Polarity=Neg	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	ɢʊːraːn-na	ɢʊːraːn	NUM	_	NumType=Card	1	conj	_	SpaceAfter=No
@@ -239,8 +239,8 @@
 7	an&iː	an&iː	ADV	_	PronType=Int	8	advmod	_	_
 8	ʋai-gu-nɵ	ʋai	VERB	_	Aspect=Imp	3	conj	_	_
 9	da	da	CCONJ	_	_	3	cc	_	_
-10	bu	bu	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-11	liː	liː	PART	_	Polarity=Neg	13	advmod	_	_
+10	bu	bu	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj:outer	_	_
+11	liː	liː	PART	_	Polarity=Neg	3	advmod	_	_
 12	mude-nɵ	mude	VERB	_	Mood=Ind|VerbForm=Fin	3	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -368,9 +368,9 @@
 2	dʑaŋ	dʑaŋ	ADV	_	_	5	advmod	_	_
 3	ɢʊraːn	ɢʊraːn	NUM	_	NumType=Card	4	nummod	_	_
 4	tsɢʊː	tsɢʊː	NOUN	_	Number=Sing	5	obl:tmod	_	_
-5	lɵ-gu	lɵ	VERB	_	Mood=Ind|Tense=Pres	9	advcl	_	_
-6	tɕɵ	tɕɵ	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
-7	biau-naː-ŋgɜ	biau	NOUN	_	Case=Acc	9	obj	_	_
+5	lɵ-gu	lɵ	VERB	_	Mood=Ind|Tense=Pres	8	advcl	_	_
+6	tɕɵ	tɕɵ	PRON	_	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+7	biau-naː-ŋgɜ	biau	NOUN	_	Case=Acc	8	obj	_	_
 8	duikɵ	duikɵ	VERB	_	Mood=Imp	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -451,8 +451,8 @@
 # text = ndaː-nɵ aːdʑɵ xanan-sa ʂgɜ-na, bu xanan-sa mulaː-na
 # text[eng] = My elder sister is the eldest and I am the youngest.
 1	ndaː-nɵ	_	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
-2	aːdʑɵ	_	NOUN	_	_	5	nsubj	_	_
-3	xanan-sa	_	PRON	_	Case=Abl|PronType=Prs	5	obl	_	_
+2	aːdʑɵ	_	NOUN	_	_	4	nsubj	_	_
+3	xanan-sa	_	PRON	_	Case=Abl|PronType=Prs	4	obl	_	_
 4	ʂgɜ-na	_	ADJ	_	Degree=Sup	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	4	punct	_	_
 6	bu	_	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
@@ -546,7 +546,7 @@
 # text[eng] = There are seven people in my family.
 1	ndaː-nɵ	_	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
 2	kudɵ	_	NOUN	_	_	4	obl	_	_
-3	iɢʋa-la	_	PRON	_	Case=Ins|PronType=Prs	4	advmod	_	_
+3	iɢʋa-la	_	PRON	_	Case=Ins|PronType=Prs	4	obl	_	_
 4	ulɵ-dʑɵ	_	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
 5	doloːn	_	NUM	_	NumType=Card	7	nummod	_	_
 6	amadɵ	_	NOUN	_	_	7	compound	_	_
@@ -561,7 +561,7 @@
 4	kurgeːn	_	NOUN	_	_	5	xcomp	_	_
 5	ʋai-dʑɵ	_	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
 6	ɢʊːr	_	NUM	_	NumType=Card	7	nummod	_	_
-7	fan	_	NOUN	_	_	8	obl:tmod	_	_
+7	fan	_	NOUN	_	_	5	obl:tmod	_	_
 8	ulɵ-dʑ-a	_	AUX	_	Mood=Ind|VerbForm=Fin	5	aux	_	_
 
 # sent_id = Tu_grammar_47
@@ -585,7 +585,7 @@
 # text = te ɢʊːr-dɵ buliː ʋai-n-a-nuː?
 # text[eng] = Do they have any baby?
 1	te	_	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-2	ɢʊːr-dɵ	_	NUM	_	Case=Dat|NumType=Card	3	obl	_	_
+2	ɢʊːr-dɵ	_	NUM	_	Case=Dat|NumType=Card	3	nmod	_	_
 3	buliː	_	NOUN	_	_	4	obj	_	_
 4	ʋai-n-a	_	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	-nuː	_	PART	_	PronType=Int	4	discourse	_	SpaceAfter=No
@@ -598,7 +598,7 @@
 2	ɢoilo-dɵ	_	NUM	_	Case=Dat|NumType=Card	6	obl	_	_
 3	muɕigu	_	ADJ	_	_	4	amod	_	_
 4	sarare	_	NOUN	_	_	6	obl:tmod	_	_
-5	buliː-ŋgɜ	_	NOUN	_	_	6	nsubj	_	Case=Sig
+5	buliː-ŋgɜ	_	NOUN	_	_	6	nsubj:outer	_	Case=Sig
 6	ire-dʑ-a	_	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
 
 # sent_id = Tu_grammar_51
@@ -748,7 +748,7 @@
 # text = buda-ŋɢʊla nɵgɜ nɵgɜ-naː sdzaliu naːma-ŋgɜ mude-m
 # text[eng] = We have all known each other very well.
 1	buda-ŋɢʊla	_	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-2	nɵgɜ	_	NUM	_	NumType=Card	3	fixed	_	_
+2	nɵgɜ	_	NUM	_	NumType=Card	3	flat	_	_
 3	nɵgɜ-naː	_	NUM	_	NumType=Card	6	obj	_	Case=Ref
 4	sdzaliu	_	ADV	_	_	6	advmod	_	_
 5	naːma-ŋgɜ	_	ADV	_	_	6	advmod	_	_
@@ -788,7 +788,7 @@
 2	tar	_	NOUN	_	_	6	obl	_	_
 3	taʂ	_	NOUN	_	_	4	compound	_	_
 4	korgo-nɵ	_	NOUN	_	Case=Gen	2	nmod:poss	_	_
-5	daʋaː-gu	_	VERB	_	Aspect=Imp|VerbForm=Part	6	cop	_	_
+5	daʋaː-gu	_	AUX	_	Aspect=Imp|VerbForm=Part	6	cop	_	_
 6	nɵmbaː	_	ADJ	_	Degree=Pos	0	root	_	_
 
 # sent_id = Tu_grammar_69
@@ -817,7 +817,7 @@
 # text[eng] = You cannot miss it.
 1	tɕɵ	_	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	jer-dʑɵ	_	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
-3	loː-lugu-nɵ	_	VERB	_	VerbForm=Part	2	advmod	_	_
+3	loː-lugu-nɵ	_	VERB	_	VerbForm=Part	2	advcl	_	_
 4	gui	_	PART	_	Polarity=Neg	2	advmod	_	_
 
 # sent_id = Tu_grammar_72
@@ -825,7 +825,7 @@
 # text[eng] = Could you tell me where the nearest shop is?
 1	tɕɵ	_	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	ndaː	_	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
-3	nɵgɜ	_	NUM	_	NumType=Card	4	advmod	_	_
+3	nɵgɜ	_	NUM	_	NumType=Card	4	nummod	_	_
 4	kɵle	_	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
 5	dɵɔŋɕɵ	_	NOUN	_	_	6	compound	_	_
 6	aʋu-dʑin	_	VERB	_	Aspect=Hab|VerbForm=Part	7	acl	_	_
@@ -867,7 +867,7 @@
 8	au	au	VERB	_	VerbForm=Conv	9	advcl	_	_
 9	u-la	u	VERB	_	Tense=Fut	4	advcl	_	_
 10	ɕdʑi-gu	ɕdʑi	VERB	_	Aspect=Imp	9	xcomp	_	_
-11	rgolo-gu-na	rgolo	VERB	_	Aspect=Imp	9	aux	_	_
+11	rgolo-gu-na	rgolo	AUX	_	Aspect=Imp	9	aux	_	_
 
 # sent_id = Tu_grammar_75
 # text = tɕɵ te deːl-lɵ mosaːdiː-sa udʑe-sa sar xʊɢʊr ʋ a
